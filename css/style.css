@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(../images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.logo h1 span {
+    color: red;
+}
+
+.nav-bar {
+    float: right;
+    margin-top: 50px;
+    margin-right: 180px;
+}
+
+.nav-bar a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 10px;
+}
+
+.nav-bar a:hover {
+    color: red;
+    transition: 0.8s ease;
+}
+
+.nav-bar a.active {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.8s ease;
+}
+
+.top-btn {
+    position: absolute;
+    float: right;
+    margin-top: 42px;
+    right: 50px;
+}
+
+.hire-me {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hire-me:hover {
+    background-color: white;
+    color: red;
+    transition: 0.8s ease-in;
+}
+
+.hire-me:active {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in;
+}
+
+.main-head {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-head .h1-heading {
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main-head .h1-heading span {
+    color: white;
+    font-weight: bold;
+}
+
+.main-head .line {
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    width: 300px;
+}
+
+.main-head .h3-heading {
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.main-head .main-btn {
+    margin-top: 30px;
+}
+
+.main-head .main-btn .hireme {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-head .main-btn .moreinfo {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-head .main-btn .hireme:hover {
+    background-color: white;
+    color: red;
+    transition: 0.8s ease-in;
+}
+
+.main-head .main-btn .hireme:active {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in;
+}
+
+.main-head .main-btn .moreinfo:hover {
+    background-color: white;
+    color: red;
+    transition: 0.8s ease-in;
+}
+
+.main-head .main-btn .moreinfo:active {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in;
+}
+
+.main-head .para .p1 {
+    margin-top: 50px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: lighter;
+}
